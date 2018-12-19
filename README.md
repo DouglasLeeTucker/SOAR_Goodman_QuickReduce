@@ -16,9 +16,12 @@ Purpose: Perform basic quick-and-dirty processing and wavelength- and spectropho
 
 DECam_PGCM is written in Python 2.7.  It makes substantial use of the following python modules:
 <ul>
-<li> numpy (written using numpy 1.9.1, but similar or later versions should also work fine)
-<li> scipy (written using scipy 0.14.0, but similar or later versions should also work fine)
-<li> pandas (written using pandas 0.15.2, but similar or later versions should also work fine)
+<li> numpy (developed using numpy v1.14.3)
+<li> scipy (developed using scipy v0.19.0)
+<li> pandas (developed using pandas v0.20.1)
+<li> astropy (developed using astropy v1.2.1)
+<li> pysynphot (developed using pysynphot v0.9.8.6)
+<li> matplotlib (developed using matplotlib v1.5.1)
 </ul>
 
 [Back to top.](#top)
@@ -30,7 +33,7 @@ DECam_PGCM is written in Python 2.7.  It makes substantial use of the following 
 
 <ul>
 <li> A FITS file containing the SOAR Goodman spectrum of the target.
-<li> A FITS file containing the SOAR Goodman spectrum of an ["Hamuy Tertiary Spectrophotometric Standard Star"](http://www.ctio.noao.edu/soar/content/hamuy-spectrophotometric-standards) obtained with the same Goodman configuration as the target spectrum (and preferably obtained during the same night), for removing the instrumental response of the detector.
+<li> A FITS file containing the SOAR Goodman spectrum of an Hamuy Tertiary Spectrophotometric Standard Star (http://www.ctio.noao.edu/soar/content/hamuy-spectrophotometric-standards) obtained using the same Goodman configuration as for the target spectrum (and preferably obtained during the same night), for removing the instrumental response of the detector.
 <li> One comparison arc spectrum, for manually identifying the wavelegnth and column number of a single comparison arc line (for quick and-dirty-wavelength calibration).
 <li> No bias frames or flat fields are needed for this basic quick-and-dirty processing and calibration.
 </ul>
