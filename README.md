@@ -1,7 +1,7 @@
 # <a name="top"></a> SOAR_Goodman_QuickReduce
 SOAR-4m Goodman Spectrograph "Quick Reduce" package.
 
-Purpose: Perform basic quick-and-dirty processing and wavelength- and spectrophotometric calibration of spectra obtained on the SOAR-4m Goodman spectrograph for the purpose of real-time "by eye" spectral classification.  Basically, SOAR_Goodman_QuickReduce fills the niche between IRAF implot (or SAOimage projection plots) and publication-quality full spectroscopic reductions.
+Purpose: Perform basic quick-and-dirty processing and wavelength and spectrophotometric calibration of spectra obtained on the SOAR-4m Goodman spectrograph for the purpose of real-time "by eye" spectral classification.  Basically, SOAR_Goodman_QuickReduce fills a niche between IRAF implot (or SAOimage projection plots) and publication-quality full spectroscopic reductions.
 
 ## FAQ
 
