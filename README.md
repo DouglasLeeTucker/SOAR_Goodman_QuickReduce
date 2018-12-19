@@ -30,7 +30,7 @@ DECam_PGCM is written in Python 2.7.  It makes substantial use of the following 
 
 <ul>
 <li> A FITS file containing the SOAR Goodman spectrum of the target.
-<li> A FITS file containing the SOAR Goodman spectrum of an [Hamuy Tertiary Spectrophotometric Standard Star](http://www.ctio.noao.edu/soar/content/hamuy-spectrophotometric-standards) obtained with the same Goodman configuration as the target spectrum (and preferably obtained during the same night), for removing the instrumental response of the detector.
+<li> A FITS file containing the SOAR Goodman spectrum of an ["Hamuy Tertiary Spectrophotometric Standard Star"](http://www.ctio.noao.edu/soar/content/hamuy-spectrophotometric-standards) obtained with the same Goodman configuration as the target spectrum (and preferably obtained during the same night), for removing the instrumental response of the detector.
 <li> One comparison arc spectrum, for manually identifying the wavelegnth and column number of a single comparison arc line (for quick and-dirty-wavelength calibration).
 <li> No bias frames or flat fields are needed for this basic quick-and-dirty processing and calibration.
 </ul>
