@@ -24,6 +24,12 @@ DECam_PGCM is written in Python 2.7.  It makes substantial use of the following 
 <li> matplotlib (developed using matplotlib v1.5.1)
 </ul>
 
+For conda users, here is a conda yaml file that can be used to create a "soar_qr" environment:  <a href=./etc/soar_qr_decam-cr-03.yml>soar_qr_decam-cr-03.yml</a>
+To create the "soar_qr" environment, download <a href=./etc/soar_qr_decam-cr-03.yml>soar_qr_decam-cr-03.yml</a> and then issue the conda command: <P>
+<code>  
+  conda env create -f soar_qr_decam-cr-03.yml
+</code> 
+
 [Back to top.](#top)
 
 ----------------------------------------------------------------------
