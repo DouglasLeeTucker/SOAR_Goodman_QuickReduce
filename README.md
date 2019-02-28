@@ -20,7 +20,7 @@ DECam_PGCM is written in Python 2.7.  It makes substantial use of the following 
 <li> scipy (developed using scipy v0.19.0)
 <li> pandas (developed using pandas v0.20.1)
 <li> astropy (developed using astropy v1.2.1)
-<li> pysynphot (developed using pysynphot v0.9.8.6)
+  <li> <s>pysynphot (developed using pysynphot v0.9.8.6)</s>
 <li> matplotlib (developed using matplotlib v1.5.1)
 </ul>
 
